@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+body{
+  font-family: 'Agdasima', sans-serif;
+  width: 500px;
+  margin: auto;
+  
+}
+@font-face {
+    font-family: 'cursive';
+    src: url('./fonts/CursiveStandard.ttf') format(truetype);
+}
+body{
+    background-color: #7A976B;
+}
+h1{
+    font-size: 2.2rem;
+    color: #EDE551;
+}
+p{
+    font-size: 1.6rem;
+}
+em {
+    font-family: 'cursive';
+    font-size: 3rem;
+}
+button{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    font-size: 2rem;
+}
+#calculatrice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    width: 400px;
+    margin: auto;
+}
+#screan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#ok{
+    width: 100px;
+    height: 22px;
+    font-size: 0.8rem;
+    margin: 0;
+    align-self: center;
+}
+#entry{
+    display: block;
+    width: 200px;
+    align-self: center;
+}
+
+#display{
+    width: 400px;
+    margin: 40px auto;
+    height: 50px;
+    color: white;
+    background-color: gray;
+    font-size: 1.6rem;
+}
+
+#history{
+    width: 400px;
+    margin: 40px auto;
+    height: auto;
+    color: white;
+    background-color: darkgray;
+    font-size: 1.6rem;
+}
